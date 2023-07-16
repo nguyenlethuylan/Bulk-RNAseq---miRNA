@@ -94,7 +94,6 @@ perl install.pl
 # II. miRNAseq: raw data processing & aligment
 ## 1. Set up directory
 ```bash
-```bash
 p_raw='/path/to/raw'
 p_ref='/path/to/reference/'
 p_trim='/path/to/trimming'
