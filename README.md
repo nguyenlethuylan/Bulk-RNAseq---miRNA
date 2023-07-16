@@ -173,7 +173,7 @@ genome='path/to/ncbi_datasets/ncbi_dataset/data/GCA_012934285.1/GCA_012934285.1_
 reads_collapsed_vs_genome='path/to/arf/SRR12952898.collapsed_vs_genome.arf'
 hairpin='path/to/hairpin_cleanup.fa'
 out='path/to/output'; mkdir -p $out; cd $out
-time $miRDeep2 $collapsefa $genome $reads_collapsed_vs_genome $miRNAfa none $hairpin -d -c -v 2 > report.log 
+time $miRDeep2 $collapsefa $genome $reads_collapsed_vs_genome $miRNAfa none $hairpin -d -c -v 2>report.log 
 
 ```
 
